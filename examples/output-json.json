@@ -1,0 +1,60 @@
+{
+  "timestamp": "2026-02-18T20:50:00Z",
+  "total": 3,
+  "by_model": {
+    "opus": 2,
+    "sonnet": 1,
+    "codex": 0,
+    "other": 0
+  },
+  "subagents": [
+    {
+      "label": "ram-monitor-skill",
+      "model": "anthropic/claude-opus-4-6",
+      "model_alias": "opus",
+      "model_friendly": "Opus 4.6",
+      "progress_pct": 60,
+      "runtime_sec": 153,
+      "status": "running",
+      "session_key": "agent:main:subagent:abc123-def456",
+      "emoji": {
+        "status": "✅",
+        "model": "🎭",
+        "progress": "🟡",
+        "runtime": "⏱️"
+      }
+    },
+    {
+      "label": "morning-briefing",
+      "model": "anthropic/claude-opus-4-6",
+      "model_alias": "opus",
+      "model_friendly": "Opus 4.6",
+      "progress_pct": 80,
+      "runtime_sec": 165,
+      "status": "running",
+      "session_key": "agent:main:subagent:ghi789-jkl012",
+      "emoji": {
+        "status": "✅",
+        "model": "🎭",
+        "progress": "🟠",
+        "runtime": "⏱️"
+      }
+    },
+    {
+      "label": "create-website",
+      "model": "anthropic/claude-sonnet-4-5",
+      "model_alias": "sonnet",
+      "model_friendly": "Sonnet 4.5",
+      "progress_pct": 40,
+      "runtime_sec": 492,
+      "status": "running",
+      "session_key": "agent:main:subagent:mno345-pqr678",
+      "emoji": {
+        "status": "✅",
+        "model": "🎯",
+        "progress": "🟡",
+        "runtime": "⏳"
+      }
+    }
+  ]
+}
